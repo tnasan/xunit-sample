@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "src\Sample\Sample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Repositories", "src\Sample.Repositories\Sample.Repositories.csproj", "{0618FE53-40A3-4B14-BC95-6BFA9A08A565}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4721B34-56A8-4FC4-A0E1-6157DCF4FE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Repositories.Tests", "tests\Sample.Repositories.Tests\Sample.Repositories.Tests.csproj", "{518F5876-FC3B-4448-9FB3-037FABE7B3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Tests", "tests\Sample.Tests\Sample.Tests.csproj", "{4279942B-1AEE-4467-94A3-2D67E384BEA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +32,19 @@ Global
 		{0618FE53-40A3-4B14-BC95-6BFA9A08A565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0618FE53-40A3-4B14-BC95-6BFA9A08A565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0618FE53-40A3-4B14-BC95-6BFA9A08A565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518F5876-FC3B-4448-9FB3-037FABE7B3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518F5876-FC3B-4448-9FB3-037FABE7B3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518F5876-FC3B-4448-9FB3-037FABE7B3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518F5876-FC3B-4448-9FB3-037FABE7B3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4279942B-1AEE-4467-94A3-2D67E384BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4279942B-1AEE-4467-94A3-2D67E384BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4279942B-1AEE-4467-94A3-2D67E384BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4279942B-1AEE-4467-94A3-2D67E384BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C6D84288-CC7F-4715-96DD-06DCD504DCA8} = {63C4BAAE-D72C-4A1F-98B8-4357C399CC3C}
 		{0618FE53-40A3-4B14-BC95-6BFA9A08A565} = {63C4BAAE-D72C-4A1F-98B8-4357C399CC3C}
+		{518F5876-FC3B-4448-9FB3-037FABE7B3E6} = {C4721B34-56A8-4FC4-A0E1-6157DCF4FE0A}
+		{4279942B-1AEE-4467-94A3-2D67E384BEA7} = {C4721B34-56A8-4FC4-A0E1-6157DCF4FE0A}
 	EndGlobalSection
 EndGlobal
